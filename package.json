@@ -1,0 +1,34 @@
+{
+  "name": "moving-pet",
+  "version": "1.0.0",
+  "description": "moving pet web site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node init.js --delay 2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heeseonim/moving-pet.git"
+  },
+  "author": "heeseonim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heeseonim/moving-pet/issues"
+  },
+  "homepage": "https://github.com/heeseonim/moving-pet#readme",
+  "dependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.3",
+    "mongoose": "^5.9.5",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2",
+    "pug": "^2.0.4"
+  }
+}
